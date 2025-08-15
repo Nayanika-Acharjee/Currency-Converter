@@ -1,4 +1,4 @@
-<script>
+
 const { useState, useMemo, useRef, useCallback } = React;
 
 export function CurrencyConverter() {
@@ -76,4 +76,5 @@ export function CurrencyConverter() {
     </div>
   );
 }
-</script>
+
+
