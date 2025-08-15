@@ -18,7 +18,7 @@ export function CurrencyConverter() {
     INR:89.89,
   };
 
-  // only recalculates when start currency or amount changes
+  
   const total = useMemo(() => {
     return currency * (currencyRates[targetCurrency] / startRate);
   }, [currency, startRate]);
@@ -76,5 +76,6 @@ export function CurrencyConverter() {
     </div>
   );
 }
+
 
 
